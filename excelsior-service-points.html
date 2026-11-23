@@ -1,0 +1,842 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Service Points | Excelsior Express | Fast &amp; Reliable Courier Service in Bangladesh</title>
+  <meta name="author" content="Excelsior Express">
+  <meta name="description" content="Excelsior Express: trusted courier service in Bangladesh since 1986. Corporate, merchant, air parcel, line haul, person-to-person delivery and warehousing.">
+  <meta name="keywords" content="courier service Bangladesh, Excelsior Express, cash on delivery, line haul, air parcel, warehousing, Dhaka courier">
+  <meta name="robots" content="NOINDEX,NOFOLLOW">
+  <!-- Mobile Specific Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Favicons -->
+  <link rel="icon" href="assets/img/favicons/favicon.svg" type="image/svg+xml">
+  <link rel="icon" href="assets/img/favicons/favicon.png" type="image/png" sizes="32x32">
+  <link rel="shortcut icon" href="assets/img/favicons/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="assets/img/favicons/favicon.png">
+  <!--==============================
+	  Google Fonts
+	============================== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&amp;family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+  <!--==============================
+	    All CSS File
+	============================== -->
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <!-- Fontawesome Icon -->
+  <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+  <!-- Magnific Popup -->
+  <link rel="stylesheet" href="assets/css/magnific-popup.min.css">
+  <!-- swiper Slider -->
+  <link rel="stylesheet" href="assets/css/swiper.min.css">
+  <!-- nice-select -->
+  <link rel="stylesheet" href="assets/css/nice-select.min.css">
+  <!-- aos js -->
+  <link rel="stylesheet" href="assets/css/aos.css">
+  <!-- animated-headline js -->
+  <link rel="stylesheet" href="assets/css/animated-headline.css">
+  <!-- Theme Custom CSS -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .vs-header .header-logo::before{display:none!important}
+    .vs-header .header-logo img{height:50px;width:auto;max-width:none}
+    .service-layout1 .service-style1{border-radius:0}
+    .preloader-inner img{width:220px;height:auto}
+    .footer-logo img,.vs-menu-wrapper .mobile-logo img{background:#fff;padding:10px 14px;width:220px;height:auto;max-width:100%}
+    @media (max-width:575px){.vs-header .header-logo img{height:46px}}
+    /* clip, not hidden, so the sticky navbar (.eex-nav, built in build_eex1.py) works */
+    html,body{overflow-x:clip}
+    /* Home 1 hero: header no longer overlaps it, so less top padding */
+    .hero-layout1{--eex-hero-top:90px} /* text top padding; the side images start at the same line */
+    @media (min-width:992px){.hero-layout1 .hero-item{padding-top:var(--eex-hero-top)}}
+    /* Home 1 hero person: the photo has a solid navy background, so size it to the viewport and fade its top/right edges into the hero */
+    .hero-layout1 .eex-hero-person{display:block;width:clamp(330px,26vw,540px);height:auto;max-width:none;
+      -webkit-mask-image:linear-gradient(to right,#000 72%,transparent),linear-gradient(to bottom,transparent,#000 16%);-webkit-mask-composite:source-in;
+      mask-image:linear-gradient(to right,#000 72%,transparent),linear-gradient(to bottom,transparent,#000 16%);mask-composite:intersect}
+    /* the template hides the right-side picture below 1540px; keep it on laptops, just smaller */
+    @media (min-width:1200px) and (max-width:1540px){
+      .hero-layout1 .hero-box{right:0;top:auto;bottom:0;max-width:clamp(300px,24vw,380px)}
+      .hero-layout1 .hero-box .img-box1 .img{display:block}
+      .hero-layout1 .hero-box .subtract-box{display:block;padding:44px 40px}
+      .hero-layout1 .hero-box .subtract-title{font-size:38px}}
+    /* side images: top edge lines up with the hero text, bottom stays on the hero floor */
+    @media (min-width:1200px){
+      .hero-layout1 .hero-box{top:var(--eex-hero-top);bottom:0;display:flex;flex-direction:column}
+      .hero-layout1 .hero-box .subtract-box{background:linear-gradient(360deg,rgba(223,17,25,.5) 49%,rgba(223,17,25,.14) 100%)}
+      .hero-layout1 .hero-box .img-box1{flex:1;min-height:0}
+      .hero-layout1 .hero-box .img-box1 .img,.hero-layout1 .hero-box .img-box1 .img img{height:100%}
+      .hero-layout1 .hero-box .img-box1 .img img{width:100%;object-fit:cover}
+      .hero-layout1 .shape-mockup:has(.eex-hero-person){top:var(--eex-hero-top)}
+      .hero-layout1 .eex-hero-person{height:100%;object-fit:cover;object-position:40% 0;
+        -webkit-mask-image:linear-gradient(to right,#000 72%,transparent),linear-gradient(to bottom,transparent,#000 6%);
+        mask-image:linear-gradient(to right,#000 72%,transparent),linear-gradient(to bottom,transparent,#000 6%)}}
+    @media (min-width:1200px) and (max-width:1399px){.hero-layout1.vs-hero .hero-title{font-size:60px}} /* fit between the person and the right box */
+    @media (min-width:1200px) and (max-width:1299px){.hero-layout1.vs-hero .hero-title{font-size:54px}}
+    /* right box badge: smaller, straddles the photo's top-left corner, text ring spins around the logo */
+    .hero-layout1 .hero-box{z-index:2}
+    @media (max-width:1199px){.hero-layout1 .hero-box{display:none}} /* only the lone badge was left at these sizes */
+    .hero-layout1 .hero-box .info-style1{top:-62px;left:22px;z-index:2}
+    .hero-layout1 .hero-box .img-box1 .info-box{width:124px;height:124px;border:6px solid var(--title-color);position:relative;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .hero-layout1 .hero-box .info-box .info-img img{width:40px}
+    .hero-layout1 .eex-ring{position:absolute;inset:0;width:100%;height:100%;animation:rotate 14s linear infinite;pointer-events:none}
+    .hero-layout1 .eex-ring text{font:700 10.5px var(--title-font);fill:var(--title-color);letter-spacing:.5px}
+    /* bottom truck (template image + Excelsior logo): after the preloader, drives in from the right and parks in the middle */
+    .hero-layout1 .shape-mockup:has(.eex-hero-person){z-index:2}
+    .hero-layout1 .eex-truck-lane{position:absolute;left:0;right:0;bottom:0;height:115px;z-index:0;pointer-events:none}
+    .hero-layout1 .eex-truck{position:absolute;left:50%;bottom:0;width:267px;height:115px;transform:translateX(-50%);
+      animation:eexHeroArrive 2.6s cubic-bezier(.16,.84,.3,1) both paused}
+    .hero-layout1 .eex-truck-lane.go .eex-truck{animation-play-state:running}
+    .hero-layout1 .eex-truck > img:first-child{display:block;width:100%;height:100%;max-width:none}
+    .hero-layout1 .eex-truck-logo{position:absolute;left:29.2%;top:10.4%;width:67.4%;height:57.4%;max-width:none;object-fit:contain;background:#fff;padding:3% 4%}
+    @keyframes eexHeroArrive{0%{transform:translateX(65vw)}88%{transform:translateX(calc(-50% - 6px))}100%{transform:translateX(-50%)}}
+    @media (max-width:991px){.hero-layout1 .eex-truck-lane{height:86px}.hero-layout1 .eex-truck{width:200px;height:86px}.hero-layout1 .hero-item{padding-bottom:130px}}
+    @media (prefers-reduced-motion:reduce){.hero-layout1 .eex-truck,.hero-layout1 .eex-ring{animation:none!important}}
+  </style>
+  <style>
+    /* Service Points page */
+    html,body{overflow-x:clip}  /* template uses overflow-x:hidden, which breaks the sticky map */
+    .sp-stats{margin-top:-60px;position:relative;z-index:3}
+    .sp-stats .row{background:#fff;border-radius:16px;box-shadow:0 20px 50px rgba(4,34,62,.08);padding:28px 12px;margin:0}
+    .sp-stat{text-align:center;padding:6px 0}
+    .sp-stat+.sp-stat{border-left:1px solid #eee}
+    .sp-stat b{display:block;font-family:var(--title-font);font-size:40px;line-height:1.1;color:var(--title-color)}
+    .sp-stat b span{color:var(--theme-color)}
+    .sp-stat small{font-size:14px;color:#6b7785}
+    .sp-tools{display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between;margin-bottom:22px}
+    .sp-search{position:relative;flex:1 1 260px;max-width:380px}
+    .sp-search input{width:100%;height:52px;border:1px solid #e3e6ea;border-radius:999px;padding:0 20px 0 48px;background:#fff;font-size:15px}
+    .sp-search input:focus{outline:none;border-color:var(--theme-color);box-shadow:0 0 0 4px rgba(226,34,34,.12)}
+    .sp-search i{position:absolute;left:20px;top:50%;transform:translateY(-50%);color:#8a96a3}
+    .sp-chips{display:flex;flex-wrap:wrap;gap:8px}
+    .sp-chip{border:1px solid #e3e6ea;background:#fff;border-radius:999px;padding:8px 16px;font-size:14px;font-weight:500;color:var(--title-color);transition:.2s}
+    .sp-chip span{opacity:.55;margin-left:4px}
+    .sp-chip:hover{border-color:var(--theme-color)}
+    .sp-chip.is-active{background:var(--theme-color);border-color:var(--theme-color);color:#fff}
+    .sp-chip:focus-visible,.sp-card:focus-visible{outline:3px solid rgba(226,34,34,.35);outline-offset:2px}
+    .sp-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .sp-card{position:relative;background:#fff;border:1px solid #eceef1;border-radius:0;padding:20px 20px 18px;cursor:pointer;transition:.25s;text-align:left}
+    .sp-card:hover{transform:translateY(-3px);box-shadow:0 14px 34px rgba(4,34,62,.08)}
+    .sp-card.is-active{border-color:var(--theme-color);box-shadow:0 0 0 1px var(--theme-color),0 14px 34px rgba(226,34,34,.12)}
+    .sp-card-top{display:flex;align-items:center;gap:12px;margin-bottom:10px}
+    .sp-pin{flex:none;width:40px;height:40px;border-radius:10px;display:grid;place-items:center;background:rgba(226,34,34,.08);color:var(--theme-color);font-size:16px}
+    .sp-card.is-active .sp-pin{background:var(--theme-color);color:#fff}
+    .sp-card h3{font-size:18px;margin:0;line-height:1.25}
+    .sp-region{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#8a96a3}
+    .sp-tag{position:absolute;top:16px;right:16px;font-size:11px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:4px 10px;border-radius:999px;background:var(--title-color);color:#fff}
+    .sp-tag--hq{background:var(--theme-color)}
+    .sp-tag--epz{background:#eef3f8;color:var(--title-color)}
+    .sp-addr{font-size:14.5px;line-height:1.55;color:#55606c;margin:0 0 14px}
+    .sp-dir{font-size:14px;font-weight:600;color:var(--title-color)}
+    .sp-dir:hover{color:var(--theme-color)}
+    .sp-dir i{margin-left:6px;font-size:12px}
+    .sp-empty{display:none;padding:40px 20px;text-align:center;border:1px dashed #d9dde2;border-radius:14px;color:#6b7785}
+    .sp-map{position:sticky;top:110px;border-radius:0;overflow:hidden;box-shadow:0 20px 50px rgba(4,34,62,.1);background:#fff}
+    .sp-map iframe{display:block;width:100%;height:560px;border:0}
+    .sp-map-cap{display:flex;align-items:center;gap:12px;padding:16px 20px;border-top:1px solid #eee}
+    .sp-map-cap i{color:var(--theme-color)}
+    .sp-map-cap b{display:block;font-family:var(--title-font);color:var(--title-color)}
+    .sp-map-cap small{color:#6b7785}
+    .sp-help{background:var(--title-color);border-radius:20px;padding:44px 48px;color:#fff;display:flex;flex-wrap:wrap;gap:24px;align-items:center;justify-content:space-between}
+    .sp-help h2{color:#fff;font-size:32px;margin:0 0 6px}
+    .sp-help p{margin:0;color:rgba(255,255,255,.75)}
+    .sp-help .btns{display:flex;flex-wrap:wrap;gap:12px}
+    .sp-help .vs-btn.style-light{background:#fff;color:var(--title-color)}
+    @media (max-width:1199px){.sp-map iframe{height:440px}}
+    @media (max-width:991px){.sp-map{position:static;margin-bottom:24px}.sp-map iframe{height:320px}}
+    @media (max-width:767px){.sp-list{grid-template-columns:1fr}.sp-stat:nth-child(3){border-left:0}.sp-stat b{font-size:32px}.sp-help{padding:32px 24px}.sp-help h2{font-size:26px}}
+  </style>
+</head>
+
+<body>
+  <!--[if lte IE 9]>
+    	<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <!--********************************
+   		Code Start From Here 
+	******************************** -->
+  <!--==============================
+	Preloader
+	==============================-->
+  <div class="preloader">
+    <button class="vs-btn preloaderCls">Cancel Preloader </button>
+    <div class="preloader-inner">
+      <img src="assets/img/main_logo.png" alt="Excelsior Express">
+      <style>
+        .eex-road{position:relative;width:280px;height:74px;margin:18px auto 0;overflow:hidden;
+          -webkit-mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent);mask-image:linear-gradient(90deg,transparent,#000 18%,#000 82%,transparent)}
+        .eex-road::before{content:"";position:absolute;left:0;right:0;bottom:6px;height:2px;background:#e6e9ee;border-radius:2px}
+        .eex-road::after{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;
+          background:repeating-linear-gradient(90deg,var(--theme-color) 0 18px,transparent 18px 34px);opacity:.35;animation:eexRoad .5s linear infinite}
+        .eex-truck{position:absolute;left:0;bottom:8px;width:120px;height:60px;animation:eexDrive 2.6s infinite}
+        .eex-truck-body{animation:eexBounce .35s ease-in-out infinite alternate;transform-origin:center bottom}
+        .eex-wheel{transform-box:fill-box;transform-origin:center;animation:eexSpin .45s linear infinite}
+        .eex-puff{transform-box:fill-box;transform-origin:center;opacity:0;animation:eexPuff .9s ease-out infinite}
+        .eex-puff:nth-of-type(2){animation-delay:.3s}.eex-puff:nth-of-type(3){animation-delay:.6s}
+        .eex-speed line{stroke:var(--title-color);stroke-width:2;stroke-linecap:round;opacity:.25;animation:eexSpeed .5s linear infinite}
+        .eex-speed line:nth-child(2){animation-delay:.15s}.eex-speed line:nth-child(3){animation-delay:.3s}
+        .eex-loading{display:block;margin-top:10px;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:#8a96a3}
+        @keyframes eexDrive{
+          0%{transform:translateX(-130px);animation-timing-function:cubic-bezier(.2,.7,.3,1)}
+          42%{transform:translateX(80px)}
+          58%{transform:translateX(80px);animation-timing-function:cubic-bezier(.6,0,.85,.35)}
+          100%{transform:translateX(300px)}}
+        @keyframes eexBounce{from{transform:translateY(0)}to{transform:translateY(-1.5px)}}
+        @keyframes eexSpin{to{transform:rotate(360deg)}}
+        @keyframes eexRoad{to{background-position:-34px 0}}
+        @keyframes eexPuff{0%{opacity:.5;transform:translate(0,0) scale(.4)}100%{opacity:0;transform:translate(-14px,-6px) scale(1.4)}}
+        @keyframes eexSpeed{0%{transform:translateX(6px);opacity:0}40%{opacity:.35}100%{transform:translateX(-10px);opacity:0}}
+        @media (prefers-reduced-motion:reduce){.eex-truck{animation:none;transform:translateX(80px)}.eex-truck *,.eex-road::after{animation:none!important}}
+      </style>
+      <div class="eex-road" role="img" aria-label="Loading">
+        <svg class="eex-truck" viewBox="0 0 120 60" aria-hidden="true">
+          <g class="eex-speed"><line x1="2" y1="22" x2="12" y2="22"/><line x1="0" y1="32" x2="8" y2="32"/><line x1="4" y1="42" x2="14" y2="42"/></g>
+          <circle class="eex-puff" cx="14" cy="49" r="3" fill="#c9d0d8"/><circle class="eex-puff" cx="14" cy="49" r="3" fill="#c9d0d8"/><circle class="eex-puff" cx="14" cy="49" r="3" fill="#c9d0d8"/>
+          <g class="eex-truck-body">
+            <rect x="18" y="8" width="62" height="38" rx="3" fill="var(--theme-color)"/>
+            <rect x="18" y="40" width="62" height="6" fill="#000" opacity=".12"/>
+            <text x="49" y="31" text-anchor="middle" font-family="Arial,sans-serif" font-weight="800" font-size="14" fill="#fff" letter-spacing="1">EEX</text>
+            <path d="M82 18h18l12 14v14H82z" fill="var(--title-color)"/>
+            <path d="M88 22h11l8 10H88z" fill="#bfe3ff"/>
+            <rect x="108" y="38" width="5" height="4" rx="1" fill="#ffd166"/>
+            <rect x="16" y="45" width="98" height="3" rx="1.5" fill="var(--title-color)"/>
+          </g>
+          <g class="eex-wheel"><circle cx="34" cy="50" r="7" fill="var(--title-color)"/><circle cx="34" cy="50" r="3" fill="#fff"/><rect x="33" y="44" width="2" height="4" fill="#fff"/></g>
+          <g class="eex-wheel"><circle cx="96" cy="50" r="7" fill="var(--title-color)"/><circle cx="96" cy="50" r="3" fill="#fff"/><rect x="95" y="44" width="2" height="4" fill="#fff"/></g>
+        </svg>
+      </div>
+      <span class="eex-loading">Loading</span>
+    </div>
+  </div>
+  <button class="back-to-top" id="backToTop" aria-label="Back to Top">
+    <span class="progress-circle">
+                <svg viewBox="0 0 100 100">
+                    <circle class="bg" cx="50" cy="50" r="40"></circle>
+                    <circle class="progress" cx="50" cy="50" r="40"></circle>
+                </svg>
+                <span class="progress-percentage" id="progressPercentage">0%</span>
+    </span>
+  </button>
+  <!--==============================
+    	Mobile Menu
+  	============================== -->
+  <!--==============================
+    	Mobile Menu
+  	============================== -->
+  <div class="vs-menu-wrapper">
+    <div class="vs-menu-area text-center">
+      <div class="mobile-logo">
+        <a href="excelsior-home-1.html"><img src="assets/img/main_logo.png" alt="Excelsior Express" class="logo"></a>
+        <button class="vs-menu-toggle" aria-label="Close menu"><i class="fal fa-times"></i></button>
+      </div>
+      <div class="vs-mobile-menu">
+        <ul>
+          <li><a href="excelsior-home-1.html">Home</a></li>
+          <li><a href="excelsior-tracking.html">Tracking</a></li>
+          <li><a href="excelsior-about.html">About</a></li>
+          <li class="menu-item-has-children">
+            <a href="excelsior-services.html">Services</a>
+            <ul class="sub-menu">
+              <li><a href="excelsior-service-corporate.html">Corporate &amp; SME Delivery</a></li>
+              <li><a href="excelsior-service-merchant.html">Merchant Delivery</a></li>
+              <li><a href="excelsior-service-air-parcel.html">Air Parcel</a></li>
+              <li><a href="excelsior-service-line-haul.html">Line Haul</a></li>
+              <li><a href="excelsior-service-p2p.html">Person 2 Person</a></li>
+              <li><a href="excelsior-service-warehousing.html">Warehousing</a></li>
+            </ul>
+          </li>
+          <li><a href="excelsior-service-points.html">Service Points</a></li>
+          <li><a href="excelsior-contact.html">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <!--==============================
+        Header Area
+    ==============================-->
+  <style>
+    .eex-nav{position:sticky;top:0;z-index:99;background:rgba(255,255,255,.88);-webkit-backdrop-filter:saturate(180%) blur(14px);backdrop-filter:saturate(180%) blur(14px);
+      border-bottom:1px solid rgba(4,34,62,.07);transition:box-shadow .3s,background .3s}
+    .eex-nav.is-scrolled{background:rgba(255,255,255,.96);box-shadow:0 10px 30px rgba(4,34,62,.08)}
+    .eex-nav-in{display:flex;align-items:center;gap:28px;height:80px;transition:height .3s}
+    .eex-nav.is-scrolled .eex-nav-in{height:68px}
+    .eex-brand img{height:46px;width:auto;display:block;transition:height .3s}
+    .eex-nav.is-scrolled .eex-brand img{height:40px}
+    .eex-menu{flex:1;display:flex;justify-content:center;align-self:stretch}
+    .eex-menu > ul{display:flex;align-items:stretch;margin:0;padding:0;list-style:none}
+    .eex-menu > ul > li{position:relative;display:flex}
+    /* hover = the template's original: red top border + warm gradient over the full bar height */
+    .eex-menu > ul > li > a{position:relative;display:flex;align-items:center;gap:7px;padding:0 18px;border-top:3px solid transparent;font-family:var(--title-font);font-weight:600;font-size:15.5px;color:var(--title-color);transition:all .5s ease}
+    .eex-menu > ul > li > a:hover,.eex-menu > ul > li:focus-within > a{background:linear-gradient(180deg,rgba(4,34,62,0) 0%,rgba(238,172,135,.27) 100%);border-color:var(--theme-color)}
+    .eex-menu > ul > li > a.is-active{color:var(--theme-color)}
+    .eex-menu > ul > li > a i{font-size:11px;transition:transform .3s}
+    .eex-menu .has-sub:hover > a i,.eex-menu .has-sub:focus-within > a i{transform:rotate(180deg)}
+    .eex-sub{position:absolute;top:100%;left:50%;width:900px;padding-top:6px;transform:translate(-50%,10px);opacity:0;visibility:hidden;transition:.25s}
+    .eex-menu .has-sub:hover .eex-sub,.eex-menu .has-sub:focus-within .eex-sub{opacity:1;visibility:visible;transform:translate(-50%,0)}
+    .eex-mega{display:grid;grid-template-columns:270px 1fr 1fr;background:#fff;border-top:3px solid var(--theme-color);box-shadow:0 24px 60px rgba(4,34,62,.16)}
+    .eex-mega-media{position:relative;display:flex;flex-direction:column;justify-content:flex-end;min-height:300px;padding:26px;color:#fff;background:#04223e url(assets/img/service/service-img-2-1.jpg) center/cover}
+    .eex-mega-media::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(4,34,62,.1) 0%,rgba(4,34,62,.6) 40%,rgba(4,34,62,.95) 100%)}
+    .eex-mega-media > *{position:relative}
+    .eex-mega-media em{font-style:normal;font-size:12px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;color:#ffb3b3}
+    .eex-mega-media strong{display:block;margin:6px 0 16px;font-family:var(--title-font);font-size:22px;line-height:1.25;color:#fff}
+    .eex-mega-media a{display:inline-flex;align-items:center;gap:8px;align-self:flex-start;padding:10px 18px;background:var(--theme-color);color:#fff;font-weight:600;font-size:14px;transition:background .25s}
+    .eex-mega-media a:hover{background:#fff;color:var(--title-color)}
+    .eex-mega-col{padding:24px 18px;border-left:1px solid #eef0f3}
+    .eex-mega-col h6{margin:0 0 10px 12px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:#8a96a3}
+    .eex-mega-col ul{margin:0;padding:0;list-style:none}
+    .eex-sub .eex-mega-col a{display:flex;align-items:flex-start;gap:14px;padding:13px 12px;border-left:2px solid transparent;transition:background .2s,border-color .2s}
+    .eex-sub .eex-mega-col a:hover{background:#f6f7f9;border-left-color:var(--theme-color)}
+    .eex-sub-ic{flex:none;width:40px;height:40px;display:grid;place-items:center;background:rgba(226,34,34,.08);color:var(--theme-color);font-size:16px;transition:.2s}
+    .eex-sub a:hover .eex-sub-ic{background:var(--theme-color);color:#fff}
+    .eex-sub b{display:block;font-family:var(--title-font);font-size:15px;color:var(--title-color);line-height:1.3}
+    .eex-sub small{display:block;margin-top:2px;font-size:13px;color:#8a96a3;line-height:1.4}
+    @media (max-width:1199px){.eex-sub{width:760px}.eex-mega{grid-template-columns:210px 1fr 1fr}.eex-mega-media strong{font-size:19px}}
+    .eex-nav-end{display:flex;align-items:center;gap:12px;margin-left:auto}
+    .eex-hotline{display:flex;align-items:center;gap:10px;padding:6px 16px 6px 6px;border:1px solid #e6e9ee;border-radius:40px;transition:border-color .25s}
+    .eex-hotline:hover{border-color:var(--theme-color)}
+    .eex-hotline-ic{position:relative;width:38px;height:38px;display:grid;place-items:center;border-radius:50%;background:var(--theme-color);color:#fff;font-size:15px}
+    .eex-hotline-ic::after{content:"";position:absolute;inset:0;border-radius:50%;animation:eexRing 2s infinite}
+    @keyframes eexRing{0%{box-shadow:0 0 0 0 rgba(226,34,34,.45)}100%{box-shadow:0 0 0 10px rgba(226,34,34,0)}}
+    .eex-hotline small{display:block;font-size:11.5px;color:#8a96a3;line-height:1.2}
+    .eex-hotline b{display:block;font-family:var(--title-font);font-size:15px;color:var(--title-color);line-height:1.2}
+    .eex-burger{width:46px;height:46px;border:0;border-radius:12px;background:var(--title-color);display:grid;place-content:center;gap:5px;padding:0}
+    .eex-burger span{display:block;width:20px;height:2px;border-radius:2px;background:#fff}
+    .eex-burger span:nth-child(2){width:14px;margin-left:6px}
+    @media (max-width:1199px){.eex-menu > ul > li > a{padding:0 12px;font-size:15px}.eex-hotline{display:none}}
+    @media (max-width:991px){.eex-menu{display:none}.eex-nav-in{height:70px}.eex-brand img{height:42px}}
+    @media (prefers-reduced-motion:reduce){.eex-hotline-ic::after{animation:none}}
+  </style>
+  <header class="eex-nav" id="eexNav">
+    <div class="container eex-nav-in">
+      <a class="eex-brand" href="excelsior-home-1.html"><img src="assets/img/main_logo.png" alt="Excelsior Express"></a>
+      <nav class="eex-menu" aria-label="Main">
+        <ul>
+          <li><a href="excelsior-home-1.html">Home</a></li>
+          <li><a href="excelsior-tracking.html">Tracking</a></li>
+          <li><a href="excelsior-about.html">About</a></li>
+          <li class="has-sub"><a href="excelsior-services.html" aria-haspopup="true">Services<i class="fa-solid fa-chevron-down" aria-hidden="true"></i></a>
+            <div class="eex-sub">
+              <div class="eex-mega">
+                <div class="eex-mega-media">
+                  <em>Since 1986</em>
+                  <strong>One trusted network for every delivery in Bangladesh</strong>
+                  <a href="excelsior-services.html">All services <i class="fa-solid fa-arrow-right" aria-hidden="true"></i></a>
+                </div>
+                <div class="eex-mega-col">
+                  <h6>Delivery</h6>
+                  <ul>
+                    <li><a href="excelsior-service-corporate.html"><span class="eex-sub-ic"><i class="fa-solid fa-building"></i></span><span><b>Corporate &amp; SME Delivery</b><small>Same-day &amp; next-day for businesses</small></span></a></li>
+                    <li><a href="excelsior-service-merchant.html"><span class="eex-sub-ic"><i class="fa-solid fa-store"></i></span><span><b>Merchant Delivery</b><small>Cash on delivery for online sellers</small></span></a></li>
+                    <li><a href="excelsior-service-air-parcel.html"><span class="eex-sub-ic"><i class="fa-solid fa-plane-departure"></i></span><span><b>Air Parcel</b><small>Urgent shipments by air</small></span></a></li>
+                  </ul>
+                </div>
+                <div class="eex-mega-col">
+                  <h6>Logistics</h6>
+                  <ul>
+                    <li><a href="excelsior-service-line-haul.html"><span class="eex-sub-ic"><i class="fa-solid fa-truck-moving"></i></span><span><b>Line Haul</b><small>GPS-tracked truck rental</small></span></a></li>
+                    <li><a href="excelsior-service-p2p.html"><span class="eex-sub-ic"><i class="fa-solid fa-people-arrows"></i></span><span><b>Person 2 Person</b><small>One courier, door to door</small></span></a></li>
+                    <li><a href="excelsior-service-warehousing.html"><span class="eex-sub-ic"><i class="fa-solid fa-warehouse"></i></span><span><b>Warehousing</b><small>Storage, picking &amp; dispatch</small></span></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li><a href="excelsior-service-points.html">Service Points</a></li>
+          <li><a href="excelsior-contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="eex-nav-end">
+        <a class="eex-hotline" href="tel:+88029557703"><span class="eex-hotline-ic"><i class="fa-solid fa-phone-volume" aria-hidden="true"></i></span><span><small>Call us</small><b>88-02-9557703</b></span></a>
+        <button class="vs-menu-toggle eex-burger d-lg-none" aria-label="Open menu"><span></span><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+  <script>
+    (function () {
+      var nav = document.getElementById('eexNav'), here = location.pathname.split('/').pop() || 'excelsior-home-1.html';
+      nav.querySelectorAll('.eex-menu a').forEach(function (a) {
+        if (a.getAttribute('href') !== here) return;
+        (a.closest('.has-sub') ? a.closest('.has-sub').querySelector('a') : a).classList.add('is-active');
+      });
+      var onScroll = function () { nav.classList.toggle('is-scrolled', window.scrollY > 10); };
+      window.addEventListener('scroll', onScroll, { passive: true }); onScroll();
+    })();
+  </script>
+  <!--==============================
+    Breadcrumb
+============================== -->
+  <div class="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.png">
+    <div class="container z-index-common">
+      <div class="breadcumb-content">
+        <h1 class="breadcumb-title">Service Points</h1>
+        <div class="breadcumb-menu-wrap">
+          <div class="breadcumb-menu">
+            <span><a href="excelsior-home-1.html">Home</a></span>
+            <span>Service Points</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sp-stats">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-3 sp-stat"><b>23</b><small>Service points</small></div>
+        <div class="col-6 col-md-3 sp-stat"><b>5</b><small>Regions covered</small></div>
+        <div class="col-6 col-md-3 sp-stat"><b>5</b><small>EPZ desks</small></div>
+        <div class="col-6 col-md-3 sp-stat"><b>40<span>+</span></b><small>Years since 1986</small></div>
+      </div>
+    </div>
+  </div>
+  <!-- Service Points Finder Start -->
+  <section class="space">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-xl-7">
+          <div class="title-area text-center">
+            <span class="sec-subtitle"><img class="subtitle-shape" src="assets/img/icons/title-shape1.png" alt=""> Find A Branch <img class="subtitle-shape" src="assets/img/icons/title-shape1.png" alt=""></span>
+            <h2 class="sec-title">Drop Off Or Collect Near You</h2>
+            <p>Visit any of our 23 service points across Bangladesh to send a parcel, collect a delivery or talk to our team about business shipping.</p>
+          </div>
+        </div>
+      </div>
+      <div class="sp-tools">
+        <label class="sp-search">
+          <i class="far fa-magnifying-glass"></i>
+          <input type="search" id="spSearch" placeholder="Search area, road or branch" aria-label="Search service points">
+        </label>
+        <div class="sp-chips" role="group" aria-label="Filter by district">
+              <button type="button" class="sp-chip is-active" data-filter="all" aria-pressed="true">All<span>23</span></button>
+              <button type="button" class="sp-chip" data-filter="Dhaka" aria-pressed="false">Dhaka<span>10</span></button>
+              <button type="button" class="sp-chip" data-filter="Chattogram" aria-pressed="false">Chattogram<span>8</span></button>
+              <button type="button" class="sp-chip" data-filter="Narayanganj" aria-pressed="false">Narayanganj<span>2</span></button>
+              <button type="button" class="sp-chip" data-filter="Cumilla" aria-pressed="false">Cumilla<span>1</span></button>
+              <button type="button" class="sp-chip" data-filter="Rangpur" aria-pressed="false">Rangpur<span>2</span></button>
+        </div>
+      </div>
+      <div class="row g-4 flex-lg-row-reverse">
+        <div class="col-lg-5">
+          <div class="sp-map">
+            <iframe id="spMap" title="Service point location" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=48/1%20Motijheel%20Commercial%20Area%2C%20Motijheel%2C%20Dhaka-1000%2C%20Bangladesh&amp;z=15&amp;output=embed"></iframe>
+            <div class="sp-map-cap">
+              <i class="fas fa-location-dot fa-lg"></i>
+              <div><b id="spMapName">Motijheel</b><small id="spMapAddr">48/1 Motijheel Commercial Area, Motijheel, Dhaka-1000</small></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="sp-list" id="spList" aria-live="polite">
+            <article class="sp-card is-active" tabindex="0" role="button" aria-label="Show Motijheel on the map"
+              data-region="Dhaka" data-search="motijheel dhaka 48/1 motijheel commercial area, motijheel, dhaka-1000 head office" data-name="Motijheel" data-addr="48/1 Motijheel Commercial Area, Motijheel, Dhaka-1000" data-map="https://maps.google.com/maps?q=48/1%20Motijheel%20Commercial%20Area%2C%20Motijheel%2C%20Dhaka-1000%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag sp-tag--hq">Head Office</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Motijheel</h3></div>
+              </div>
+              <p class="sp-addr">48/1 Motijheel Commercial Area, Motijheel, Dhaka-1000</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=48/1%20Motijheel%20Commercial%20Area%2C%20Motijheel%2C%20Dhaka-1000%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Uttara on the map"
+              data-region="Dhaka" data-search="uttara dhaka house-05, road-11, sector-01, uttara, dhaka " data-name="Uttara" data-addr="House-05, Road-11, Sector-01, Uttara, Dhaka" data-map="https://maps.google.com/maps?q=House-05%2C%20Road-11%2C%20Sector-01%2C%20Uttara%2C%20Dhaka%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Uttara</h3></div>
+              </div>
+              <p class="sp-addr">House-05, Road-11, Sector-01, Uttara, Dhaka</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=House-05%2C%20Road-11%2C%20Sector-01%2C%20Uttara%2C%20Dhaka%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Banani on the map"
+              data-region="Dhaka" data-search="banani dhaka house-71, road-12, block-h, banani, dhaka " data-name="Banani" data-addr="House-71, Road-12, Block-H, Banani, Dhaka" data-map="https://maps.google.com/maps?q=House-71%2C%20Road-12%2C%20Block-H%2C%20Banani%2C%20Dhaka%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Banani</h3></div>
+              </div>
+              <p class="sp-addr">House-71, Road-12, Block-H, Banani, Dhaka</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=House-71%2C%20Road-12%2C%20Block-H%2C%20Banani%2C%20Dhaka%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Bangla Motor on the map"
+              data-region="Dhaka" data-search="bangla motor dhaka 92 new eskaton road, bangla motor, dhaka " data-name="Bangla Motor" data-addr="92 New Eskaton Road, Bangla Motor, Dhaka" data-map="https://maps.google.com/maps?q=92%20New%20Eskaton%20Road%2C%20Bangla%20Motor%2C%20Dhaka%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Bangla Motor</h3></div>
+              </div>
+              <p class="sp-addr">92 New Eskaton Road, Bangla Motor, Dhaka</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=92%20New%20Eskaton%20Road%2C%20Bangla%20Motor%2C%20Dhaka%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Mirpur on the map"
+              data-region="Dhaka" data-search="mirpur dhaka plot-06, block-ka, section-06, boundary road, mirpur, dhaka " data-name="Mirpur" data-addr="Plot-06, Block-Ka, Section-06, Boundary Road, Mirpur, Dhaka" data-map="https://maps.google.com/maps?q=Plot-06%2C%20Block-Ka%2C%20Section-06%2C%20Boundary%20Road%2C%20Mirpur%2C%20Dhaka%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Mirpur</h3></div>
+              </div>
+              <p class="sp-addr">Plot-06, Block-Ka, Section-06, Boundary Road, Mirpur, Dhaka</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Plot-06%2C%20Block-Ka%2C%20Section-06%2C%20Boundary%20Road%2C%20Mirpur%2C%20Dhaka%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Tongi on the map"
+              data-region="Dhaka" data-search="tongi dhaka 4/6 shahid sundor ali road, nishat nagar, tongi, gazipur warehouse" data-name="Tongi" data-addr="4/6 Shahid Sundor Ali Road, Nishat Nagar, Tongi, Gazipur" data-map="https://maps.google.com/maps?q=4/6%20Shahid%20Sundor%20Ali%20Road%2C%20Nishat%20Nagar%2C%20Tongi%2C%20Gazipur%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag">Warehouse</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Tongi</h3></div>
+              </div>
+              <p class="sp-addr">4/6 Shahid Sundor Ali Road, Nishat Nagar, Tongi, Gazipur</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=4/6%20Shahid%20Sundor%20Ali%20Road%2C%20Nishat%20Nagar%2C%20Tongi%2C%20Gazipur%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Gazipur on the map"
+              data-region="Dhaka" data-search="gazipur dhaka joardar shopping complex, bogra bypass, tangail road, gazipur " data-name="Gazipur" data-addr="Joardar Shopping Complex, Bogra Bypass, Tangail Road, Gazipur" data-map="https://maps.google.com/maps?q=Joardar%20Shopping%20Complex%2C%20Bogra%20Bypass%2C%20Tangail%20Road%2C%20Gazipur%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Gazipur</h3></div>
+              </div>
+              <p class="sp-addr">Joardar Shopping Complex, Bogra Bypass, Tangail Road, Gazipur</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Joardar%20Shopping%20Complex%2C%20Bogra%20Bypass%2C%20Tangail%20Road%2C%20Gazipur%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Hemayetpur on the map"
+              data-region="Dhaka" data-search="hemayetpur dhaka in front of baytul habib mosque, hemayetpur, savar " data-name="Hemayetpur" data-addr="In front of Baytul Habib Mosque, Hemayetpur, Savar" data-map="https://maps.google.com/maps?q=In%20front%20of%20Baytul%20Habib%20Mosque%2C%20Hemayetpur%2C%20Savar%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Hemayetpur</h3></div>
+              </div>
+              <p class="sp-addr">In front of Baytul Habib Mosque, Hemayetpur, Savar</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=In%20front%20of%20Baytul%20Habib%20Mosque%2C%20Hemayetpur%2C%20Savar%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Dhaka EPZ on the map"
+              data-region="Dhaka" data-search="dhaka epz dhaka hashem plaza, dhaka epz, savar epz" data-name="Dhaka EPZ" data-addr="Hashem Plaza, Dhaka EPZ, Savar" data-map="https://maps.google.com/maps?q=Hashem%20Plaza%2C%20Dhaka%20EPZ%2C%20Savar%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag sp-tag--epz">EPZ</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Dhaka EPZ</h3></div>
+              </div>
+              <p class="sp-addr">Hashem Plaza, Dhaka EPZ, Savar</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Hashem%20Plaza%2C%20Dhaka%20EPZ%2C%20Savar%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Zirabo on the map"
+              data-region="Dhaka" data-search="zirabo dhaka zirabo bazar, ashulia, savar " data-name="Zirabo" data-addr="Zirabo Bazar, Ashulia, Savar" data-map="https://maps.google.com/maps?q=Zirabo%20Bazar%2C%20Ashulia%2C%20Savar%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Dhaka</span><h3>Zirabo</h3></div>
+              </div>
+              <p class="sp-addr">Zirabo Bazar, Ashulia, Savar</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Zirabo%20Bazar%2C%20Ashulia%2C%20Savar%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Agrabad on the map"
+              data-region="Chattogram" data-search="agrabad chattogram 76/77 agrabad commercial area, agrabad, chattogram " data-name="Agrabad" data-addr="76/77 Agrabad Commercial Area, Agrabad, Chattogram" data-map="https://maps.google.com/maps?q=76/77%20Agrabad%20Commercial%20Area%2C%20Agrabad%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Agrabad</h3></div>
+              </div>
+              <p class="sp-addr">76/77 Agrabad Commercial Area, Agrabad, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=76/77%20Agrabad%20Commercial%20Area%2C%20Agrabad%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Madarbari on the map"
+              data-region="Chattogram" data-search="madarbari chattogram roshid master lane, madarbari, chattogram " data-name="Madarbari" data-addr="Roshid Master Lane, Madarbari, Chattogram" data-map="https://maps.google.com/maps?q=Roshid%20Master%20Lane%2C%20Madarbari%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Madarbari</h3></div>
+              </div>
+              <p class="sp-addr">Roshid Master Lane, Madarbari, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Roshid%20Master%20Lane%2C%20Madarbari%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Sheikh Mujib Road on the map"
+              data-region="Chattogram" data-search="sheikh mujib road chattogram sheikh mujib road, chattogram " data-name="Sheikh Mujib Road" data-addr="Sheikh Mujib Road, Chattogram" data-map="https://maps.google.com/maps?q=Sheikh%20Mujib%20Road%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Sheikh Mujib Road</h3></div>
+              </div>
+              <p class="sp-addr">Sheikh Mujib Road, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Sheikh%20Mujib%20Road%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Muradpur on the map"
+              data-region="Chattogram" data-search="muradpur chattogram shiraj shopping complex, muradpur, chattogram " data-name="Muradpur" data-addr="Shiraj Shopping Complex, Muradpur, Chattogram" data-map="https://maps.google.com/maps?q=Shiraj%20Shopping%20Complex%2C%20Muradpur%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Muradpur</h3></div>
+              </div>
+              <p class="sp-addr">Shiraj Shopping Complex, Muradpur, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Shiraj%20Shopping%20Complex%2C%20Muradpur%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Kalurghat on the map"
+              data-region="Chattogram" data-search="kalurghat chattogram dorbar complex, balurtal, kalurghat, chattogram " data-name="Kalurghat" data-addr="Dorbar Complex, Balurtal, Kalurghat, Chattogram" data-map="https://maps.google.com/maps?q=Dorbar%20Complex%2C%20Balurtal%2C%20Kalurghat%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Kalurghat</h3></div>
+              </div>
+              <p class="sp-addr">Dorbar Complex, Balurtal, Kalurghat, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Dorbar%20Complex%2C%20Balurtal%2C%20Kalurghat%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Access Road on the map"
+              data-region="Chattogram" data-search="access road chattogram haji para, access road, agrabad, chattogram " data-name="Access Road" data-addr="Haji Para, Access Road, Agrabad, Chattogram" data-map="https://maps.google.com/maps?q=Haji%20Para%2C%20Access%20Road%2C%20Agrabad%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Access Road</h3></div>
+              </div>
+              <p class="sp-addr">Haji Para, Access Road, Agrabad, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Haji%20Para%2C%20Access%20Road%2C%20Agrabad%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Chattogram EPZ on the map"
+              data-region="Chattogram" data-search="chattogram epz chattogram hossain complex, airport road, cepz, chattogram epz" data-name="Chattogram EPZ" data-addr="Hossain Complex, Airport Road, CEPZ, Chattogram" data-map="https://maps.google.com/maps?q=Hossain%20Complex%2C%20Airport%20Road%2C%20CEPZ%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag sp-tag--epz">EPZ</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Chattogram EPZ</h3></div>
+              </div>
+              <p class="sp-addr">Hossain Complex, Airport Road, CEPZ, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Hossain%20Complex%2C%20Airport%20Road%2C%20CEPZ%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Bibirhat on the map"
+              data-region="Chattogram" data-search="bibirhat chattogram near musa market, bibirhat, chattogram " data-name="Bibirhat" data-addr="Near Musa Market, Bibirhat, Chattogram" data-map="https://maps.google.com/maps?q=Near%20Musa%20Market%2C%20Bibirhat%2C%20Chattogram%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Chattogram</span><h3>Bibirhat</h3></div>
+              </div>
+              <p class="sp-addr">Near Musa Market, Bibirhat, Chattogram</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Near%20Musa%20Market%2C%20Bibirhat%2C%20Chattogram%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Adamjee EPZ on the map"
+              data-region="Narayanganj" data-search="adamjee epz narayanganj adamjee epz road, beside rongdhonu cinema hall, siddhirganj, narayanganj epz" data-name="Adamjee EPZ" data-addr="Adamjee EPZ Road, beside Rongdhonu Cinema Hall, Siddhirganj, Narayanganj" data-map="https://maps.google.com/maps?q=Adamjee%20EPZ%20Road%2C%20beside%20Rongdhonu%20Cinema%20Hall%2C%20Siddhirganj%2C%20Narayanganj%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag sp-tag--epz">EPZ</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Narayanganj</span><h3>Adamjee EPZ</h3></div>
+              </div>
+              <p class="sp-addr">Adamjee EPZ Road, beside Rongdhonu Cinema Hall, Siddhirganj, Narayanganj</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Adamjee%20EPZ%20Road%2C%20beside%20Rongdhonu%20Cinema%20Hall%2C%20Siddhirganj%2C%20Narayanganj%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Chashara on the map"
+              data-region="Narayanganj" data-search="chashara narayanganj nawab salimullah road, chashara, narayanganj " data-name="Chashara" data-addr="Nawab Salimullah Road, Chashara, Narayanganj" data-map="https://maps.google.com/maps?q=Nawab%20Salimullah%20Road%2C%20Chashara%2C%20Narayanganj%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Narayanganj</span><h3>Chashara</h3></div>
+              </div>
+              <p class="sp-addr">Nawab Salimullah Road, Chashara, Narayanganj</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Nawab%20Salimullah%20Road%2C%20Chashara%2C%20Narayanganj%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Cumilla EPZ on the map"
+              data-region="Cumilla" data-search="cumilla epz cumilla yasin market, cumilla epz gate, cumilla epz" data-name="Cumilla EPZ" data-addr="Yasin Market, Cumilla EPZ Gate, Cumilla" data-map="https://maps.google.com/maps?q=Yasin%20Market%2C%20Cumilla%20EPZ%20Gate%2C%20Cumilla%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag sp-tag--epz">EPZ</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Cumilla</span><h3>Cumilla EPZ</h3></div>
+              </div>
+              <p class="sp-addr">Yasin Market, Cumilla EPZ Gate, Cumilla</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Yasin%20Market%2C%20Cumilla%20EPZ%20Gate%2C%20Cumilla%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Nilphamari on the map"
+              data-region="Rangpur" data-search="nilphamari rangpur sarkar plaza, nilphamari epz mor, nilphamari epz" data-name="Nilphamari" data-addr="Sarkar Plaza, Nilphamari EPZ Mor, Nilphamari" data-map="https://maps.google.com/maps?q=Sarkar%20Plaza%2C%20Nilphamari%20EPZ%20Mor%2C%20Nilphamari%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              <span class="sp-tag sp-tag--epz">EPZ</span>
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Rangpur</span><h3>Nilphamari</h3></div>
+              </div>
+              <p class="sp-addr">Sarkar Plaza, Nilphamari EPZ Mor, Nilphamari</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Sarkar%20Plaza%2C%20Nilphamari%20EPZ%20Mor%2C%20Nilphamari%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+            <article class="sp-card" tabindex="0" role="button" aria-label="Show Saidpur on the map"
+              data-region="Rangpur" data-search="saidpur rangpur dinajpur road, saidpur, nilphamari " data-name="Saidpur" data-addr="Dinajpur Road, Saidpur, Nilphamari" data-map="https://maps.google.com/maps?q=Dinajpur%20Road%2C%20Saidpur%2C%20Nilphamari%2C%20Bangladesh&amp;z=15&amp;output=embed">
+              
+              <div class="sp-card-top">
+                <span class="sp-pin"><i class="fas fa-location-dot"></i></span>
+                <div><span class="sp-region">Rangpur</span><h3>Saidpur</h3></div>
+              </div>
+              <p class="sp-addr">Dinajpur Road, Saidpur, Nilphamari</p>
+              <a class="sp-dir" href="https://www.google.com/maps/search/?api=1&amp;query=Dinajpur%20Road%2C%20Saidpur%2C%20Nilphamari%2C%20Bangladesh" target="_blank" rel="noopener">Get directions<i class="fa-regular fa-arrow-up-right"></i></a>
+            </article>
+          </div>
+          <div class="sp-empty" id="spEmpty">No service point matches your search. Call <a href="tel:+88029557703">88-02-9557703, 9569498</a> and we will arrange a pickup.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Service Points Finder End -->
+  <section class="space-bottom">
+    <div class="container">
+      <div class="sp-help">
+        <div>
+          <h2>No branch near you?</h2>
+          <p>We pick up from your door anywhere we deliver. Call us or track a parcel you have already sent.</p>
+        </div>
+        <div class="btns">
+          <a href="tel:+88029557703" class="vs-btn">Call 88-02-9557703<i class="fa-regular fa-phone"></i></a>
+          <a href="excelsior-tracking.html" class="vs-btn style-light">Track Shipment<i class="fa-regular fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--==============================
+	  Footer Area
+	============================== -->
+  <footer class="footer-layout2 bg-body z-index-common" data-bg-src="assets/img/bg/footer-bg2.jpg">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row g-5 justify-content-between">
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="widget footer-widget">
+              <div class="footer-logo">
+                <a href="excelsior-home-1.html">
+                  <img src="assets/img/main_logo.png" alt="Excelsior Express" class="logo">
+                </a>
+              </div>
+              <p class="footer-text">Fast, safe and reliable courier service across Bangladesh since 1986.</p>
+              <ul class="social-links">
+                <li><a href="https://www.facebook.com/excelsiorexpress1986" target="_blank" rel="noopener" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-auto">
+            <div class="widget widget_nav_menu footer-widget">
+              <h3 class="widget_title">Our Services<span class="title-shape"></span></h3>
+              <ul class="menu">
+                <li><a href="excelsior-service-corporate.html"><i class="far fa-angle-right"></i> Corporate &amp; SME Delivery</a></li>
+                <li><a href="excelsior-service-merchant.html"><i class="far fa-angle-right"></i> Merchant Delivery</a></li>
+                <li><a href="excelsior-service-air-parcel.html"><i class="far fa-angle-right"></i> Air Parcel</a></li>
+                <li><a href="excelsior-service-line-haul.html"><i class="far fa-angle-right"></i> Line Haul</a></li>
+                <li><a href="excelsior-service-p2p.html"><i class="far fa-angle-right"></i> Person 2 Person</a></li>
+                <li><a href="excelsior-service-warehousing.html"><i class="far fa-angle-right"></i> Warehousing</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-3 col-xl-auto">
+            <div class="widget widget_nav_menu footer-widget">
+              <h3 class="widget_title">Useful Links<span class="title-shape"></span></h3>
+              <ul class="menu">
+                <li><a href="excelsior-about.html"><i class="far fa-angle-right"></i> About Us</a></li>
+                <li><a href="excelsior-tracking.html"><i class="far fa-angle-right"></i> Track Shipment</a></li>
+                <li><a href="excelsior-service-points.html"><i class="far fa-angle-right"></i> Service Points</a></li>
+                <li><a href="faq.html"><i class="far fa-angle-right"></i> FAQ</a></li>
+                <li><a href="excelsior-contact.html"><i class="far fa-angle-right"></i> Contact</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-6 col-xl-3">
+            <div class="widget footer-widget">
+              <h3 class="widget_title">Head Office<span class="title-shape"></span></h3>
+              <p class="footer-text">48/1 Motijheel Commercial Area,<br>Motijheel, Dhaka-1000, Bangladesh</p>
+              <p class="footer-text mb-1"><a href="tel:+88029557703">88-02-9557703, 9569498</a></p>
+              <p class="footer-text"><a href="mailto:info@excelsiorexpress.net">info@excelsiorexpress.net</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-wrap">
+      <div class="container">
+        <div class="row g-2 justify-content-md-between justify-content-center">
+          <div class="col-lg-7">
+            <p class="copyright-text">Copyright <i class="fal fa-copyright"></i>
+              <script>
+                document.write(new Date().getFullYear())
+              </script> <a href="excelsior-home-1.html">Excelsior Express</a>. All Rights Reserved.
+            </p>
+          </div>
+          <div class="col-lg-5">
+            <div class="copyright-menu">
+              <ul class="list-unstyled">
+                <li><a href="#">Terms of Service</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!--********************************
+			Code End  Here 
+	******************************** -->
+  <!--==============================
+        All Js File
+    ============================== -->
+  <!-- Jquery -->
+  <script src="assets/js/vendor/jquery-3.7.1.min.js"></script>
+  <!-- Bootstrap -->
+  <script src="assets/js/bootstrap.min.js"></script>
+  <!-- swiper -->
+  <script src="assets/js/swiper.min.js"></script>
+  <!-- Magnific Popup -->
+  <script src="assets/js/jquery.magnific-popup.min.js"></script>
+  <!-- imagesloaded -->
+  <script src="assets/js/imagesloaded.pkgd.min.js"></script>
+  <!-- Gsap -->
+  <script src="assets/js/gsap.min.js"></script>
+  <!-- ScrollTrigger -->
+  <script src="assets/js/ScrollTrigger.min.js"></script>
+  <!-- Gsap ScrollTo Plugin -->
+  <script src="assets/js/gsap-scroll-to-plugin.js"></script>
+  <!-- Split Text -->
+  <script src="assets/js/SplitText.js"></script>
+  <!-- lenis -->
+  <script src="assets/js/lenis.min.js"></script>
+  <!-- aos js -->
+  <script src="assets/js/aos.js"></script>
+  <!-- nice-select -->
+  <script src="assets/js/jquery.nice-select.min.js"></script>
+  <!-- marquee -->
+  <script src="assets/js/marquee.js"></script>
+  <!-- animated-headline -->
+  <script src="assets/js/animated-headline.js"></script>
+  <!-- Main Js File -->
+  <script src="assets/js/main.js"></script>
+  <script>
+    // Service Points: filter by district + search, click a card to show it on the map
+    (function () {
+      var cards = [].slice.call(document.querySelectorAll('.sp-card'));
+      var chips = [].slice.call(document.querySelectorAll('.sp-chip'));
+      var search = document.getElementById('spSearch');
+      var empty = document.getElementById('spEmpty');
+      var map = document.getElementById('spMap');
+      var region = 'all';
+      function apply() {
+        var term = search.value.trim().toLowerCase(), shown = 0;
+        cards.forEach(function (c) {
+          var ok = (region === 'all' || c.dataset.region === region) && c.dataset.search.indexOf(term) !== -1;
+          c.style.display = ok ? '' : 'none';
+          if (ok) shown++;
+        });
+        empty.style.display = shown ? 'none' : 'block';
+      }
+      function select(c) {
+        cards.forEach(function (x) { x.classList.toggle('is-active', x === c); });
+        map.src = c.dataset.map;
+        document.getElementById('spMapName').textContent = c.dataset.name;
+        document.getElementById('spMapAddr').textContent = c.dataset.addr;
+        if (window.innerWidth < 992) map.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }
+      chips.forEach(function (b) {
+        b.addEventListener('click', function () {
+          region = b.dataset.filter;
+          chips.forEach(function (x) { x.classList.toggle('is-active', x === b); x.setAttribute('aria-pressed', x === b); });
+          apply();
+        });
+      });
+      search.addEventListener('input', apply);
+      cards.forEach(function (c) {
+        c.addEventListener('click', function (ev) { if (!ev.target.closest('a')) select(c); });
+        c.addEventListener('keydown', function (ev) { if (ev.key === 'Enter' || ev.key === ' ') { ev.preventDefault(); select(c); } });
+      });
+    })();
+  </script>
+  <script>
+    // Home coverage links here as #region=<name>; pre-select that district chip.
+    (function () { var m = location.hash.match(/region=([A-Za-z]+)/), c = m && document.querySelector('.sp-chip[data-filter="' + m[1] + '"]'); if (c) c.click(); })();
+  </script>
+</body>
+</html>
