@@ -691,7 +691,7 @@
     (function () {
       var cards = document.querySelectorAll('#tlStack .ab-card'), years = document.querySelectorAll('#tlYears .ab-year'),
           prev = document.getElementById('tlPrev'), next = document.getElementById('tlNext'), cur = cards.length - 1;
-      function show(n) {
+      function show(n, scroll) {
         cur = Math.max(0, Math.min(cards.length - 1, n));
         var fan = window.innerWidth < 768 ? [0, 14, 26, 36, 44] : [0, 60, 100, 128, 146]; // px each older card sticks out
         cards.forEach(function (c, i) {
@@ -702,12 +702,12 @@
           c.setAttribute('aria-hidden', d !== 0);
         });
         years.forEach(function (y, i) { y.classList.toggle('active', i === cur); y.setAttribute('aria-current', i === cur); });
-        years[cur].scrollIntoView({ block: 'nearest', inline: 'nearest' });
+        if (scroll) years[cur].scrollIntoView({ block: 'nearest', inline: 'nearest' });
         prev.disabled = cur === 0; next.disabled = cur === cards.length - 1;
       }
-      years.forEach(function (y, i) { y.addEventListener('click', function () { show(i); }); });
-      prev.addEventListener('click', function () { show(cur - 1); });
-      next.addEventListener('click', function () { show(cur + 1); });
+      years.forEach(function (y, i) { y.addEventListener('click', function () { show(i, true); }); });
+      prev.addEventListener('click', function () { show(cur - 1, true); });
+      next.addEventListener('click', function () { show(cur + 1, true); });
       window.addEventListener('resize', function () { show(cur); });
       show(cur);
     })();
